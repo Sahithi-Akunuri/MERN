@@ -1,0 +1,35 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: red;
+}
+
+#wish {
+    background-color: indigo;
+}
+
+.content {
+    background-color: white;
+}
+
+button.content {
+    background-color: cyan;
+    color: rgba(0, 100, 0, 0.3);
+}
+
+button {
+    color: magenta;
+    font-style: normal;
+}
+
+#wish,
+#wish2 {
+    padding: 50px;
+}
+
+* {
+    font-style: italic;
+    background-color: white;
+}

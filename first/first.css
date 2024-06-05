@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(to bottom, blue, yellow);
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    transition-duration: 0.1s;
+}
+
+.box:hover {
+    font-size: larger;
+    padding: 10px;
+    background: linear-gradient(brown, navy);
+    border-radius: 5px;
+    margin-left: 50px;
+    color: beige;
+}
+
+.textarea {
+    background-color: orange;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.textarea:hover {
+    font-size: larger;
+    padding: 10px;
+    background: linear-gradient(brown, navy);
+    border-radius: 5px;
+    margin-left: 10px;
+    color: beige;
+}
